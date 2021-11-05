@@ -1,0 +1,3 @@
+# Descrição do Projeto
+
+O projeto MovieDB tem por objetivo explorar a API¹ do site [TheMovieDB](https://www.themoviedb.org/) e aprender como configurar a comunicação entre front-end e back-end em um mesmo projeto. O lado server-side será responsável por habilitar o servidor, puxar as informações da API do TheMovieDB e disponibilizar para ser utilizado pelo front. O lado client-side será responsável por obter os dados do servidor local e estruturar a página de forma que transforme os dados obtidos em um sites de filmes.

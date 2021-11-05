@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Importando Fonte -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Importando css -->
+    <link rel="stylesheet" href="style.css">
+    
+    <title>The MovieDB</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <section id="logo-area">
+                <img id="logo-img" src="./imagens/cinema (2).png" alt="TheMovieDB">
+                <h3>The MovieDB</h3>
+            </section>
+            <div id="nav-area">
+                <nav id="nav-buscar">
+                    <div id="buscar-area">
+                        <input id="input-procurar" type="text" placeholder="Procurar">
+                        <button id="btn-procurar"><img src="./imagens/Lupa.png" alt="Buscar"></button>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+    
+    <section id="pagina-area">
+        <div class="container" >
+            <p id="indicador-pagina"></p>
+            <div id="seletor-pagina">
+                <input id="input-pagina" type="text" placeholder="Página">
+                <button id="btn-pagina" ><img src="./imagens/Right menu Arrow.svg" alt=""></button>
+            </div>
+        </div>
+    </section>
+
+    <main id="area-filmes">
+        <div class="container" id="container-filmes"></div>
+    </main>
+
+    <section id="botoes-area">
+        <div class="container" id="btns-pag">
+            <button id="btn-voltar">Voltar</button>
+            <button id="btn-avancar">Avançar</button>
+        </div>
+    </section>
+
+    <footer>
+        <p id="copyright"></p>
+    </footer>
+
+    <div id="modal-filme" class="modal-container"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
